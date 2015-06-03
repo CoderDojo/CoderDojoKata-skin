@@ -560,18 +560,13 @@ p{margin:0 0 20px;}
 	vertical-align:top;
 	display:table-cell;
 }
-/*.dl-menu>li+li{
-	border-left:1px solid #fff;
-}*/
+
 .dl-menu>li>a:hover{
 	color: rgb(0, 0, 0);
 	color: rgba(0, 0, 0, 0.8);
 	text-decoration:none;
 }
-.dl-menu a{
-	display:block;
-	padding:19px 7px;
-}
+
 .dl-menu .green>a{
 	background:#61c93f;
 }

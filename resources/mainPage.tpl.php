@@ -3,9 +3,9 @@
 
 <div class="container-fluid">
 	<div class="row dl-menu">
-		<div class="col-xs-4 kata-home-panel organise">Organise</div>
-		<div class="col-xs-4 kata-home-panel mentors">Mentors</div>
-		<div class="col-xs-4 kata-home-panel ninjas" style="">Ninjas</div>
+		<a href="/wiki/Organising_a_Dojo"><span class="col-xs-4 kata-home-panel organise">Organiser Resources</span></a>
+		<a href="/wiki/Overview_of_Learning_Resources"><span class="col-xs-4 kata-home-panel mentors">Learning Resources</span></a>
+		<a href="/wiki/The_Arcade"><span class="col-xs-4 kata-home-panel ninjas" style="">Ninja Zone</span></a>
 	</div>
 </div>
 
