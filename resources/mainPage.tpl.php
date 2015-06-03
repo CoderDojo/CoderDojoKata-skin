@@ -22,14 +22,12 @@
 	</div>
 </div>
 
-
 <div class="container-fluid">
-<!-- 
 	<div class="col-xs-4 kata kata-panel " style="">
 		<div class="organise"></div>
-		<img width="500"
-			src="https://coderdojo.org/wp-content/uploads/2014/07/communitysupportmilano.png"
-			alt="communitysupportmilano">
+		<img width="576" height="576"
+			src="<?php echo $viewHelper["ImagePath"], "OrganiserResourceHomePicture.jpg"; ?>"
+			alt="Organiser Resources">
 		<div style="" class="details">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 				molestie placerat metus, sed volutpat purus porta nec. Nunc eleifend
@@ -48,9 +46,9 @@
 	</div>
 	<div class="col-xs-4 kata kata-panel " style="">
 		<div class="mentors"></div>
-		<img width="500"
-			src="https://coderdojo.org/wp-content/uploads/2014/07/communitysupportmilano.png"
-			alt="communitysupportmilano">
+		<img width="576" height="576"
+			src="<?php echo $viewHelper["ImagePath"], "MentorResourceHomePicture.jpg"; ?>"
+			alt="Learning Resources">
 		<div class="details">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
 				tincidunt vel neque id placerat. Sed luctus ligula nec convallis
@@ -69,10 +67,10 @@
 
 		</div>
 	</div>
-	<div class="col-xs-4 kata kata-panel " style="">
+	<div class="col-xs-4 kata kata-panel">
 		<div class="ninjas"></div>
-		<img width="500"
-			src="https://coderdojo.org/wp-content/uploads/2014/07/communitysupportmilano.png"
+		<img width="576" height="576"
+			src="<?php echo $viewHelper["ImagePath"], "NinjaResourceHomePicture.jpg"; ?>"
 			alt="communitysupportmilano">
 		<div class="details">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -95,28 +93,7 @@
 
 		</div>
 	</div>
- -->
+
 	<div class="row same-height"><?php $this->html( 'bodycontent' ) ?></div>
-<script>
-(function() {
-function fixHeights() {
-	$('.same-height').each(function() {
-		var row = $(this);
-		var cols = row.find('.kata-panel .details');
-		var max = 0;
-		cols.height('auto');
-		cols.each(function() {
-			var h = $(this).height();
-			if (h > max) {
-				max = h;
-			}
-		});
-		cols.height(max);
-	});
-}
-fixHeights();
-$(window).on('resize', fixHeights);
-}());
-</script>
 </div>
 <!--Page 0 markup ends here-->
