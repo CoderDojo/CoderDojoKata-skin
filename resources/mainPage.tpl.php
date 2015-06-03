@@ -3,12 +3,11 @@
 
 <div class="container-fluid">
 	<div class="row dl-menu">
-		<a href="/wiki/Organising_a_Dojo"><span class="col-xs-4 kata-home-panel organise">Organiser Resources</span></a>
-		<a href="/wiki/Overview_of_Learning_Resources"><span class="col-xs-4 kata-home-panel mentors">Learning Resources</span></a>
-		<a href="/wiki/The_Arcade"><span class="col-xs-4 kata-home-panel ninjas" style="">Ninja Zone</span></a>
+		<a href="<?php echo $viewHelper["ArticlePath"], "Organising_a_Dojo"; ?>"><span class="col-xs-4 kata-home-panel organise">Organiser Resources</span></a>
+		<a href="<?php echo $viewHelper["ArticlePath"], "Overview_of_Learning_Resources"; ?>"><span class="col-xs-4 kata-home-panel mentors">Learning Resources</span></a>
+		<a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>"><span class="col-xs-4 kata-home-panel ninjas" style="">Ninja Zone</span></a>
 	</div>
 </div>
-
 
 <div class="row">
 	<div class="col-md-12">
@@ -23,7 +22,7 @@
 </div>
 
 <div class="container-fluid">
-	<div class="col-xs-4 kata kata-panel " style="">
+	<div class="col-xs-4 kata kata-panel">
 		<div class="organise"></div>
 		<img width="576" height="576"
 			src="<?php echo $viewHelper["ImagePath"], "OrganiserResourceHomePicture.jpg"; ?>"
@@ -41,7 +40,6 @@
 		</div>
 		<div class=" kata-home-panel kata-home-panel-button organise-button ">
 			<a href="learnMore.html">Learn More</a>
-
 		</div>
 	</div>
 	<div class="col-xs-4 kata kata-panel " style="">
