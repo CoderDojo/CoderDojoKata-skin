@@ -8,7 +8,7 @@
 				</a>
 			</div>
 			<div class="login kata">
-			<span ><a class="new" href="<?php echo $viewHelper["ArticlePath"], "How_To_Publish_Contents_On_Kata"; ?>">How to publish contents</a></span> - 
+			<span ><a class="new" href="<?php echo $viewHelper["ArticlePath"], "Become_a_Kata_Editor"; ?>">How to publish contents</a></span> - 
 				<?php 
 					$this->html( 'userlangattributes' );
 					$personalTools = $this->getPersonalTools();
