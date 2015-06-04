@@ -182,6 +182,37 @@ h2 {
 #footer .logo img {
 	height:41px;
 }
-#wpTextbox1 {
+#wpTextbox1, input#wpSummary {
 	width:100%;
+}
+label {
+	margin:0px;
+}
+input[type="checkbox"], input[type="radio"] {
+	margin: 0px 3px 3px 0px;
+}
+#content .mw-search-formheader li {
+	padding-bottom:0px;
+}
+.mw-ui-button.mw-ui-progressive, .mw-ui-button.mw-ui-constructive {
+	text-shadow:none;
+	font-weight:500;
+}
+.mw-ui-button.mw-ui-progressive:hover {
+	background: #61c93f none repeat scroll 0 0;
+	border-color:#61c93f;
+}
+.mw-ui-button.mw-ui-constructive {
+	background:#61c93f none repeat scroll 0 0;
+	border-color:#61c93f;
+}
+.mw-ui-button.mw-ui-constructive:hover {
+	background:#2e7ac7 none repeat scroll 0 0;
+	border-color:#2e7ac7;
+}
+label[for="wpCreateaccountMail"] {
+	margin-left:34px;
+}
+#wpCreateaccountMail {
+	display:none;
 }
