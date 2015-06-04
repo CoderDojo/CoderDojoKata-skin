@@ -3,8 +3,8 @@
 		<div class="col-md-12">
 			<div class="logo kata">
 				<a href="<?php echo $viewHelper["ArticlePath"], "Main_Page"; ?>"><img alt="CoderDojo.org"
-					src="<?php echo $viewHelper["ImagePath"], "logo.png"; ?>" width="48px"
-					height="48px"> <span class="kata-logo-text"> <?php echo $viewHelper["SiteName"]; ?></span>
+					src="<?php echo $viewHelper["ImagePath"], "logo.png"; ?>" width="48"
+					height="48"> <span class="kata-logo-text"> <?php echo $viewHelper["SiteName"]; ?></span>
 				</a>
 			</div>
 			<div class="login kata">

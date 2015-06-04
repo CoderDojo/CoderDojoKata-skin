@@ -40,8 +40,8 @@
 			</div>
 			<div class="col-sm-3">
 				<div class="logo hidden-xs">
-					<a href="https://coderdojo.org"><img
-						src="https://coderdojo.org/wp-content/themes/coderdojoorg/images/logo.png"
+					<a href="https://coderdojo.com"><img
+						src="<?php echo $viewHelper["ImagePath"], "footerlogo.png"; ?>"
 						alt="CoderDojo.org"></a>
 				</div>
 				<address>
