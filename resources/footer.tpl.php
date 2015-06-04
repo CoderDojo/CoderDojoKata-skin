@@ -45,8 +45,8 @@
 						alt="CoderDojo.org"></a>
 				</div>
 				<address>
-					<span>Dogpatch Labs,</span> <span>35 Barrow Street,</span> <span>Dublin
-						4,</span> Ireland
+					<span>Dogpatch Labs,</span> <span>Unit 1,</span><span>The CHQ Building,</span> <span>Dublin
+						1,</span> Ireland
 				</address>
 			</div>
 			<div class="col-sm-4">

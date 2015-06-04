@@ -90,6 +90,12 @@ h2 {
 .mw-content-ltr p, .mw-content-rtl p {
 	margin:10px 0px;
 }
+.mw-ui-flush-right {
+	padding-left:10px;
+}
+.mw-ui-checkbox label {
+	margin-left:10px;
+}
 .thumbimage {
 	padding:10px;
 }
@@ -161,4 +167,7 @@ h2 {
 	@include kata-ninjas();
 	@include kata-course();
 	@include kata-ratings();
+}
+#toc ul, .toc ul{
+	margin:0.3em 0 0 1.6em;
 }
