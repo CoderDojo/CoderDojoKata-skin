@@ -61,7 +61,7 @@
 		</div>
 		<div
 			class=" kata-home-panel kata-home-panel-button view-tutorials-button">
-			<a href="learnMore.html">View Tutorials</a>
+			<a href="learnMore.html">View Resources</a>
 
 		</div>
 	</div>

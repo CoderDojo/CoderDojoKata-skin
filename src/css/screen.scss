@@ -42,9 +42,7 @@ $sidebarColor: #fff;
 #catlinks {
 	text-align: left;
 }
-h2 {
-	margin-top:22px;
-}
+
 .catlinks {
 	border: 1px solid #aaa;
 	background-color: #f9f9f9;
@@ -56,21 +54,7 @@ h2 {
 .catlinks-allhidden {
 	display: none;
 }
-.nav-pills .main.active {
-	background-color:#2e7ac7;
-}
-.nav-pills .organiser-resource.active {
-	background-color:#61c93f;
-}
-.nav-pills .technical-resource.active {
-	background-color:#ed462f;
-}
-.nav-pills .ninja-resource.active {
-	background-color:#fbcc33;
-}
-#SideBar .nav-pills .active a {
-	color:#fff;
-}
+
 .mw-content-ltr {
 	direction: ltr;
 }
@@ -78,42 +62,7 @@ h2 {
 .mw-content-rtl {
 	direction: rtl;
 }
-.mw-content-ltr .thumbcaption, .mw-content-rtl .thumbcaption {
-	text-align:center;
-	font-size:12px;
-	color:#666;
-	padding: 0 10px 5px;
-}
-.mw-content-ltr h1, .mw-content-rtl h1 {
-	margin:20px 0px 30px;
-	padding-bottom:16px;
-}
-.mw-content-ltr p, .mw-content-rtl p {
-	margin:10px 0px;
-}
-.mw-ui-flush-right {
-	padding-left:10px;
-}
-.mw-ui-checkbox label {
-	margin-left:10px;
-}
-.thumbimage {
-	padding:10px;
-}
-.thumbinner {
-	border:1px solid #DFDFDF;
-	margin:10px;
-}
-.tleft .thumbinner {
-	margin-left:0px;
-}
-.tright .thumbinner {
-	margin-right:0px;
-}
-.mw-editsection, .mw-editsection-like {
-	font-size:18px;
-	vertical-align:middle;
-}
+
 #jump-to-nav {
 	margin-top: -1.4em;
 	margin-bottom: 1.4em;
@@ -168,51 +117,4 @@ h2 {
 	@include kata-ninjas();
 	@include kata-course();
 	@include kata-ratings();
-}
-#toc ul, .toc ul{
-	margin:0.3em 0 0 1.6em;
-}
-#toc ul li{
-	list-style-type:square;
-	color:#61c93f;
-}
-#toc .toctoggle, .mw-editsection .mw-editsection-bracket {
-	color:#666;
-}
-#footer .logo img {
-	height:41px;
-}
-#wpTextbox1, input#wpSummary {
-	width:100%;
-}
-label {
-	margin:0px;
-}
-input[type="checkbox"], input[type="radio"] {
-	margin: 0px 3px 3px 0px;
-}
-#content .mw-search-formheader li {
-	padding-bottom:0px;
-}
-.mw-ui-button.mw-ui-progressive, .mw-ui-button.mw-ui-constructive {
-	text-shadow:none;
-	font-weight:500;
-}
-.mw-ui-button.mw-ui-progressive:hover {
-	background: #61c93f none repeat scroll 0 0;
-	border-color:#61c93f;
-}
-.mw-ui-button.mw-ui-constructive {
-	background:#61c93f none repeat scroll 0 0;
-	border-color:#61c93f;
-}
-.mw-ui-button.mw-ui-constructive:hover {
-	background:#2e7ac7 none repeat scroll 0 0;
-	border-color:#2e7ac7;
-}
-label[for="wpCreateaccountMail"] {
-	margin-left:34px;
-}
-#wpCreateaccountMail {
-	display:none;
 }

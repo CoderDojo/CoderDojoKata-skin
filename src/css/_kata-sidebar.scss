@@ -80,6 +80,21 @@
 {
 	background-color: #FBCC33;
 }
+.nav-pills .main.active {
+	background-color:#2e7ac7;
+}
+.nav-pills .organiser-resource.active {
+	background-color:#61c93f;
+}
+.nav-pills .technical-resource.active {
+	background-color:#ed462f;
+}
+.nav-pills .ninja-resource.active {
+	background-color:#fbcc33;
+}
+#SideBar .nav-pills .active a {
+	color:#fff;
+}
 /*
 ############################################################################
 	END SIDEBAR
