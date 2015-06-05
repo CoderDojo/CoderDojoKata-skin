@@ -9,6 +9,12 @@
 		}
 	}
 
+	@media screen and (max-width: 640px) {
+		body {
+			font-size:140%;
+		}
+	}
+
 	.kata-content {
 		padding-bottom: 20px;
 		border-bottom-width: 0px;

@@ -49,7 +49,6 @@ $wgResourceModules['skins.coderdojokata'] = array(
 	),
 	'styles' => array(
 		'CoderDojoKata/resources/bootstrap.min.css' => array( 'media' => 'screen' ),
-		'CoderDojoKata/resources/style.css' => array( 'media' => 'screen' ),
 		'CoderDojoKata/resources/theme.css' => array( 'media' => 'screen' ),
 		'CoderDojoKata/resources/screen.css' => array( 'media' => 'screen' )
 	),

@@ -6,6 +6,7 @@
 
 	#SideBar {
 		.nav-pills {
+			margin-left:0px;
 			a {
 				color: #000000;
 				&:hover{
@@ -29,7 +30,7 @@
 		.active a {
 			color:#fff;
 		}
-		.main.active {
+		.main.active, .main:hover {
 			background-color:#2e7ac7;
 		}
 		.organiser-resource.active {
