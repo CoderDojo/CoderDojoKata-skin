@@ -1,10 +1,4 @@
 @mixin kata-header() {
-	/*
-	############################################################################
-		TEMPORARY IMPORT FROM SHRUTHI
-	############################################################################
-	*/
-
 	.sidebar
 	{
 	   color: white;
@@ -79,7 +73,8 @@
 	}
 
 	.col-xs-4.kata-home-panel {
-	    display: block;  padding: 19px 7px;  color: #fff;  text-align: center;  /* padding-left: 2px; */  /* padding-right: 1px; */  border-right-color: white;  border-right: 4px;  border-style: solid;text-transform: uppercase;
+	    display: block;  padding: 19px 7px;  color: #fff;  text-align: center;
+	    border-right-color: white;  border-right: 4px;  border-style: solid;text-transform: uppercase;
 	text-align: center;
 	font-size: 14px;
 	line-height: 18px;
@@ -90,31 +85,21 @@
 	.col-xs-4.kata-home-panel.mentors {
 	    background-color: red;
 	}
-
-	/*
-	#Col2BodyContainer:before {
-	content: '';
-	position: absolute;
-	height: 11px;
-	width: 9999px;
-	left: 0;
-	top: -19px;
-	background: #CCC;
-	}
-	*/
 	.kata-home-panel-button {
 	    text-align: center;
 	    font-size: 14px;
 	    width: 90%;
-	    margin-left: auto;      margin-right: auto;
-	    margin-bottom: 10px;
+	    margin: 0px auto 20px auto;
 	    line-height: 30px;
+	    display:block;
+	    color:#fff;
+	    &:hover {
+	    	color:#fff;
+	    }
 	}
-	a {}
 	.kata-home-panel.kata-home-panel-button>a {
 	    color: white;
 	    font-family: 'latoregular', Arial, Helvetica, sans-serif;
-	    /* margin-left: 10px; */
 	}
 	.kata-home-panel.kata-home-panel-button.organise-button {
 	    background-color: #61c93f;
@@ -144,9 +129,11 @@
 	    border: 2px solid;
 	    margin: 10px;
 	}
+	.kata-panel {
+		margin-bottom:30px;
+	}
 	.kata-panel .details {
-	    height: 100px;
-	    height: auto;
+	    height: 425px;
 	    padding: 15px;
 	}
 	.logo.kata .kata-logo-text {

@@ -1,4 +1,16 @@
-<div id="CommandBar" class="navbar navbar-default" role="navigation">
+<?php
+   if($viewHelper['ThisPage'] == 'Organising_a_Dojo') {
+   		$activeClassName = ' organiser-active';
+   }
+   elseif($viewHelper['ThisPage'] == 'Overview_of_Learning_Resources') {
+   	    $activeClassName = ' learning-active';
+   }
+   elseif($viewHelper['ThisPage'] == 'The_Arcade') {
+        $activeClassName = ' ninja-active';
+   }
+?>
+
+<div id="CommandBar" class="navbar navbar-default<?php echo $activeClassName; ?>" role="navigation">
 	<div class="container-fluid">
 		<?php 
 			$navElements = array('NAMESPACES');
@@ -31,7 +43,7 @@
 </div>
 
 <div id="content">
-	<div class="kata-category-title">
+	<div class="kata-category-title<?php echo $activeClassName; ?>">
 		<h2><?php echo $viewHelper["Section"]; ?><?php $this->html( 'title' ); ?></h2>
 	</div>
 

@@ -28,19 +28,25 @@
 			src="<?php echo $viewHelper["ImagePath"], "OrganiserResourceHomePicture.jpg"; ?>"
 			alt="Organiser Resources">
 		<div style="" class="details">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-				molestie placerat metus, sed volutpat purus porta nec. Nunc eleifend
-				nulla id lectus congue, tempus dignissim orci scelerisque. Sed a
-				scelerisque ante. Vestibulum eget ante non velit blandit
-				scelerisque. Cras et porta nibh. Nam molestie tortor sed felis
-				tristique, nec feugiat eros tempus. Donec facilisis erat non libero
-				tempus, id efficitur diam maximus. In at ante ligula. Sed ac tortor
-				lectus. Praesent elementum pulvinar eleifend. Nullam facilisis sem
-				sit amet nunc fermentum, sed euismod ante malesuada.</p>
+			<p>
+				In this section you can access information about Organising a Dojo, becoming a CoderDojo 
+				Champion and registering your Dojo on Zen (our Dojo listing website).
+				You can also access guides and information on recruiting Mentors and Volunteers, finding a 
+				Venue and Dojo Operations such as Belts as well as Advice from CoderDojo Champions and 
+				Guiding Principles and Philosophies.
+			</p>
+			<p>
+				Here you can also discover all the great ways to connect with the CoderDojo Community, 
+				which now includes 700+ Dojos from 57 countries around the world!
+			</p>
+			<p>
+				There are also Sponsored Tools here which contain free or discounted learning tools and 
+				aids available to use at your Dojo.
+			</p>
 		</div>
-		<div class=" kata-home-panel kata-home-panel-button organise-button ">
-			<a href="learnMore.html">Learn More</a>
-		</div>
+		<a href="<?php echo $viewHelper["ArticlePath"], "Organising_a_Dojo"; ?>" class=" kata-home-panel kata-home-panel-button organise-button ">
+			Learn More
+		</a>
 	</div>
 	<div class="col-xs-4 kata kata-panel " style="">
 		<div class="mentors"></div>
@@ -48,22 +54,24 @@
 			src="<?php echo $viewHelper["ImagePath"], "MentorResourceHomePicture.jpg"; ?>"
 			alt="Learning Resources">
 		<div class="details">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-				tincidunt vel neque id placerat. Sed luctus ligula nec convallis
-				rhoncus. Sed iaculis, quam congue rutrum lobortis, tellus nulla
-				ultricies orci, et molestie urna magna eget leo. Etiam pretium
-				pharetra massa non accumsan. Ut ultricies dolor nec dui vulputate
-				tincidunt. Ut eget dolor eget tortor tempus congue at id justo. Nam
-				et mauris id elit vulputate vestibulum. Ut sodales venenatis lectus
-				quis euismod. Sed scelerisque auctor pharetra. Praesent pretium
-				hendrerit risus at auctor. Phasellus malesuada leo ut odio posuere,
-				id bibendum eros mollis.</p>
+			<p>
+				Here you will find an Overview of Learning Resources tried, tested and contributed by 
+				members of the global CoderDojo community. These Learning Resources consist of a wide 
+				range of programming languages and technologies to help along the way.
+			</p>
+			<p>
+				This sections includes CoderDojo Sushi, resources and guides covering Scratch, HTML, 
+				Python, Ruby, Java, Minecraft and hardware guides for Arduino and Raspberry Pi projects.
+			</p>
+			<p>
+				In this section you can also access foreign language resources. We have content from our 
+				communities​ ​in the Netherlands, Belgium, Italy and Japan!
+			</p>
 		</div>
-		<div
+		<a href="<?php echo $viewHelper["ArticlePath"], "Overview_of_Learning_Resources"; ?>"
 			class=" kata-home-panel kata-home-panel-button view-tutorials-button">
-			<a href="learnMore.html">View Resources</a>
-
-		</div>
+			View Resources
+		</a>
 	</div>
 	<div class="col-xs-4 kata kata-panel">
 		<div class="ninjas"></div>
@@ -71,25 +79,18 @@
 			src="<?php echo $viewHelper["ImagePath"], "NinjaResourceHomePicture.jpg"; ?>"
 			alt="communitysupportmilano">
 		<div class="details">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Vestibulum sed felis ullamcorper, posuere dolor sed, volutpat
-				tortor. Nulla vestibulum neque quis odio porta, eget pulvinar tortor
-				dapibus. Nulla aliquet purus eu pellentesque commodo. In quis ante
-				tortor. Vivamus hendrerit luctus mauris id iaculis. Quisque
-				consectetur, purus sed eleifend lacinia, massa libero aliquet ante,
-				in euismod sem ligula sed nisl. Nulla leo ipsum, ornare vel blandit
-				lobortis, iaculis id felis. Phasellus odio leo, tempus dignissim
-				eleifend ac, rhoncus quis libero. Pellentesque sodales, nisi ut
-				finibus elementum, est risus facilisis metus, at vestibulum enim
-				magna quis nulla. Maecenas quis libero ac turpis mollis blandit at
-				accumsan felis. Sed et nisl ligula. Nam eget vulputate arcu, sit
-				amet molestie ligula. In cursus nec erat vitae aliquam. Sed turpis
-				magna, ultricies eu posuere ac, porttitor in ante.</p>
+			<p>
+				Here you will find cool tools and games for young people to engage with and learn 
+				programming skills! 
+			</p>
+			<p>
+				This section has games, projects and online tools that can help you develop your coding 
+				skills and create your own unique projects!
+			</p>
 		</div>
-		<div class=" kata-home-panel kata-home-panel-button explore-button ">
-			<a href="learnMore.html">Explore</a>
-
-		</div>
+		<a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>" class=" kata-home-panel kata-home-panel-button explore-button ">
+			Explore
+		</a>
 	</div>
 
 	<div class="row same-height"><?php $this->html( 'bodycontent' ) ?></div>

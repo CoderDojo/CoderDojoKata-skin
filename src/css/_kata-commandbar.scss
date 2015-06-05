@@ -1,41 +1,40 @@
 @mixin kata-commandbar() {
-
-	/*
-	############################################################################
-		COMMANDBAR
-	############################################################################
-	*/
-
 	#CommandBar {
 		margin-bottom: 0px;
-		* {
-			background-color: #2E7AC7;
+		background-color: #2E7AC7;
+		a {
 			color: #FFFFFF;
-			&:hover {
-				color: #ddd;
-			}
 		}
+		a:hover {
+			color: #ddd;
+		}
+
 	}
 
-	.organiser-resource #CommandBar *
+	.organiser-resource #CommandBar *, #CommandBar.organiser-active
 	{
 		background-color: #61C93F;
 	}
 
-	.technical-resource #CommandBar *
+	.technical-resource #CommandBar *, #CommandBar.learning-active
 	{
 		background-color: #ED462F;
 	}
 
-	.ninja-resource #CommandBar *
+	.ninja-resource #CommandBar *, 	#CommandBar.ninja-active
 	{
 		background-color: #FBCC33;
 	}
 
-	/*
-	############################################################################
-		END COMMANDBAR
-	############################################################################
-	*/
+	#PageContainer .kata-category-title.organiser-active {
+		border-bottom:10px solid #61C93F;
+	}
 
+	#PageContainer .kata-category-title.learning-active {
+		border-bottom:10px solid #ED462F;
+	}
+
+	#PageContainer .kata-category-title.ninja-active {
+		border-bottom:10px solid #FBCC33;
+	}
 }
