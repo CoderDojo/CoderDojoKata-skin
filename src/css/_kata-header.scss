@@ -35,6 +35,14 @@
 	    width: auto;
 	}
 	@media only screen and (max-width: 767px) {
+		img {
+			max-width:100% !important;
+			height:auto !important;
+			width:auto !important;
+		}
+		a {
+			word-wrap:break-word;
+		}
 		.inner .logo, .logo {
 			float: left;
 			width: auto;
@@ -48,7 +56,11 @@
 				height: 32px;
 			}
 		}
+		.logo.kata {
+			width:48px;
+		}
 	}
+
 	.login.kata {
 	    margin-top: 5px;
 	    float: right;

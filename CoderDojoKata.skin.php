@@ -28,6 +28,7 @@ class SkinCoderDojoKata extends SkinTemplate
 	 */
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
+		$out->addHeadItem('viewport', '<meta name="viewport" content="width=320">' );
 		$out->addModules( array( 'skins.coderdojokata' ) );
 	}
  
