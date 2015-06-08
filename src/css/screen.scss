@@ -6,13 +6,13 @@
 @import '_kata-box';
 @import '_kata-content';
 @import '_kata-tags';
-@import '_kata-footer';
 @import '_alpha-filter';
 /* section specific styles */
 @import '_kata-mentors';
 @import '_kata-ninjas';
 @import '_kata-course';
 @import '_kata-ratings';
+@import '_kata-footer';
 
 $lightBg: #E5E5E5;
 $mediumBg: #CCCCCC;
@@ -28,6 +28,7 @@ $sidebarColor: #fff;
 @include kata-sidebar();
 @include kata-commandbar();
 @include kata-header();
+@include kata-main-page();
 #content:before {
 	width: 1px;
 	overflow: hidden;
@@ -111,10 +112,10 @@ $sidebarColor: #fff;
 	@include kata-box();
 	@include kata-tags();
 	@include alpha-filter();
-	@include kata-footer();
 	/* call section specific overrides */
 	@include kata-mentors();
 	@include kata-ninjas();
 	@include kata-course();
 	@include kata-ratings();
+	@include kata-footer();
 }

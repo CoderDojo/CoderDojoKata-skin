@@ -60,8 +60,7 @@
 						<a href="mailto:partner@coderdojo.com">partner@coderdojo.com</a>
 					</dd>
 				</dl>
-				<a class=" hidden-xs" href="http://www.coderdojo.com">CoderDojo.com</a><span
-					class="visit">Visit <a href="http://www.coderdojo.com">CoderDojo.com</a></span>
+				<span class="visit">Visit <a href="http://www.coderdojo.com">CoderDojo.com</a></span>
 			</div>
 		</div>
 	</div>

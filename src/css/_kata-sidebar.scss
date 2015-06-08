@@ -16,6 +16,9 @@
 			li {
 				border-bottom: 1px solid #CCC;
 				margin-top:0px;
+				a {
+					border-radius:0px;
+				}
 				.main:hover, .main:focus {
 					background-color: #2E7AC7;
 				}
@@ -30,16 +33,16 @@
 		.active a {
 			color:#fff;
 		}
-		.main.active, .main:hover {
+		.main.active a, .main a:hover {
 			background-color:#2e7ac7;
 		}
-		.organiser-resource.active {
+		.organiser-resource.active a{
 			background-color:#61c93f;
 		}
-		.technical-resource.active {
+		.technical-resource.active a{
 			background-color:#ed462f;
 		}
-		.ninja-resource.active {
+		.ninja-resource.active a{
 			background-color:#fbcc33;
 		}
 	}

@@ -32,7 +32,9 @@
 
 	.logo.kata {
 	    margin-bottom: 10px !important;
+	    margin-left:10px;
 	    width: auto;
+	    float:left;
 	}
 	@media only screen and (max-width: 767px) {
 		img {
@@ -57,12 +59,30 @@
 			}
 		}
 		.logo.kata {
-			width:48px;
+			a img {
+				width:70px !important;
+			}
+			.kata-logo-text {
+				font-size:23px !important;
+
+			}
+		}
+		.login.kata {
+			margin-bottom:20px;
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.logo.kata {
+			.kata-logo-text {
+				margin-top:10px;
+			}
 		}
 	}
 
 	.login.kata {
 	    margin-top: 5px;
+	    margin:5px 10px 10px 0px;
 	    float: right;
 	    font-family: 'latoregular', Arial, Helvetica, sans-serif;
 	}
@@ -162,7 +182,7 @@
 		margin-bottom:30px;
 	}
 	.kata-panel .details {
-	    height: 425px;
+	    //height: 425px;
 	    padding: 15px;
 	}
 	.logo.kata .kata-logo-text {
@@ -171,8 +191,22 @@
 	    font-weight: bold;
 	    vertical-align: middle;
 	    font-size: 18px;
-	    padding-left: 5px;
-	}li.cat-item.organise:hover {
+	    padding-left: 15px;
+	    float:right;
+	}
+	.logo.kata.home {
+		.kata-logo-text {
+			margin-top:10px;
+		}
+	}
+	#MainContainer {
+		.logo-text {
+			float:left;
+			font-size:20px;
+			margin:18px 0px 0px 20px;
+		}
+	}
+	li.cat-item.organise:hover {
 	    background-color: #61c93f;
 	}
 
