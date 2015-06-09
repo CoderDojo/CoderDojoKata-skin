@@ -85,7 +85,18 @@
 	    margin:5px 10px 10px 0px;
 	    float: right;
 	    font-family: 'latoregular', Arial, Helvetica, sans-serif;
+	    .search-form {
+	    	float:left;
+	    	margin:0px 5px 0px 20px;
+	    }
 	}
+
+	@media only screen and (max-width: 640px) {
+		.login.kata .search-form {
+			margin-top:5px;
+		}
+	}
+
 	.login .kata .input {
 	    border: 2px solid;
 	}
@@ -288,7 +299,7 @@
 	    line-height: 1.125em;
 	    margin-left: 0.90em;
 	    margin-right: 0.15em;
-	    margin-top: 0.5em;
+	    margin-top: 10px;
 	    white-space: nowrap;
 	    list-style-type: square;
 	}

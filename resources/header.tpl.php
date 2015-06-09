@@ -16,7 +16,22 @@
 					foreach ( $personalTools as $key => $item ) {
 						echo $this->makeListItem( $key, $item, array("tag" => "span") );
 					}
+
+					$searchTitleObject = SpecialPage::getTitleFor("Search");
+					$searchFormUrl = $searchTitleObject->getLinkURL();
+					parse_str(parse_url($searchFormUrl, PHP_URL_QUERY), $searchFormParams);
 				?>
+				<form method="get" class="search-form" action="<?=$searchFormUrl ?>">
+					<fieldset>
+						<div class="form-group">
+							<input type="search" class="form-control" placeholder="Search" name="search"><?php
+							foreach ($searchFormParams as $key => $value) {
+								echo Html::element('input', array('type' => 'hidden', 'value' => $value, 'name' => $key)). "\n";
+							}?>
+							<input type="hidden" value="all" name="profile">
+						</div>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 	</div>
