@@ -22,8 +22,8 @@
 	<div class="container-fluid">
 		<div class="col-xs-4 kata kata-panel">
 			<div class="organise"></div>
-			<img width="576" height="576" class="reponsive-image organiser-image"
-				src="<?php echo $viewHelper["ImagePath"], "OrganiserResourceHomePicture.jpg"; ?>"
+			<img class="responsive-image organiser-image"
+				src="<?php echo $viewHelper["ImagePath"], "ratio-conserver.png"; ?>"
 				alt="Organiser Resources" />
 			<div style="" class="details">
 				<p>
@@ -48,8 +48,8 @@
 		</div>
 		<div class="col-xs-4 kata kata-panel " style="">
 			<div class="mentors"></div>
-			<img width="576" height="576" class="reponsive-image mentor-image"
-				src="<?php echo $viewHelper["ImagePath"], "MentorResourceHomePicture.jpg"; ?>"
+			<img class="responsive-image mentor-image"
+				src="<?php echo $viewHelper["ImagePath"], "ratio-conserver.png"; ?>"
 				alt="Learning Resources" />
 			<div class="details">
 				<p>
@@ -73,8 +73,8 @@
 		</div>
 		<div class="col-xs-4 kata kata-panel">
 			<div class="ninjas"></div>
-			<img width="576" height="576" class="reponsive-image ninja-image"
-				src="<?php echo $viewHelper["ImagePath"], "NinjaResourceHomePicture.jpg"; ?>"
+			<img class="responsive-image ninja-image"
+				src="<?php echo $viewHelper["ImagePath"], "ratio-conserver.png"; ?>"
 				alt="communitysupportmilano" />
 			<div class="details">
 				<p>

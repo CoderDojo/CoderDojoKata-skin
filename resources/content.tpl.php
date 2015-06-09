@@ -66,7 +66,7 @@
 		</h1>
 		<!-- /firstHeading -->
 		<!-- bodyContent -->
-		<div id="bodyContent">
+		<div id="bodyContent"<?php if($activeClassName){echo ' class="'.$activeClassName.'"';} ?>>
 			<?php if ( $this->data['isarticle'] ): ?>
 				<!-- tagline -->
 				<div id="siteSub"><?php $this->msg( 'tagline' ) ?></div>

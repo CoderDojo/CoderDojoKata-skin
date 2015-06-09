@@ -147,4 +147,25 @@
 	#wpCreateaccountMail {
 		display:none;
 	}
+
+	.toctoggle {
+		display:none;
+	}
+	.toc {
+		border:2px solid #2E7AC7;
+		padding:0px 10px 22px 20px;
+		margin-top:15px;
+	}
+
+	.organiser-active .toc {
+		border: 2px solid #61C93F;
+	}
+
+	.learning-active .toc {
+		border: 2px solid #ED462F;
+	}
+
+	.ninja-active .toc {
+		border: 2px solid #FBCC33;
+	}
 }

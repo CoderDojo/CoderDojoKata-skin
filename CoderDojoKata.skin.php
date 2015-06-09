@@ -287,7 +287,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 				
 				$skinTemplate = "content";
 				$cssClasses = " main" . $cssClasses;
-				$kataSection = "Kata :: ";
+				$kataSection = "";
 				
 				if ($context->getTitle()->getDBkey() == "Main_Page")
 				{
