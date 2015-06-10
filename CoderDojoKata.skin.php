@@ -336,6 +336,12 @@ class CoderDojoKataTemplate extends BaseTemplate
 				"ResourcePath" => "{$this->data["stylepath"]}/{$this->data["skinname"]}/resources/"
 		);
 		
+		$loggedInUserGroups = $this->getSkin()->getUser()->getEffectiveGroups();
+		if(in_array('sysop', $loggedInUserGroups))
+		{
+			$viewHelper['AdminLoggedIn'] = 1;
+		}
+
 		return $viewHelper;
 		
 	}

@@ -15,4 +15,14 @@
         <li id="NinjaMenuItem" class="ninja-resource dropdown<?php if($viewHelper['ThisPage'] == 'The_Arcade'){ ?> active<?php } ?>">
             <a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>">Ninja Zone</a>
         </li>
+        <?php
+        if(array_key_exists('AdminLoggedIn', $viewHelper))
+        {
+            ?>
+            <li class="main <?php if($viewHelper['ThisPage'] == 'Special:SpecialPages'){ ?> active<?php } ?>">
+                <a href="<?php echo $viewHelper["ArticlePath"], "Special:SpecialPages"; ?>">Special Pages</a>
+            </li>
+            <?php
+        }
+        ?>
 </ul>
