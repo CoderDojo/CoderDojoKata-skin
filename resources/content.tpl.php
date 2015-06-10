@@ -1,4 +1,5 @@
 <?php
+   $activeClassName = '';
    if($viewHelper['ThisPage'] == 'Organising_a_Dojo') {
    		$activeClassName = ' organiser-active';
    }

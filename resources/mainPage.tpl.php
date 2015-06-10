@@ -27,19 +27,16 @@
 				alt="Organiser Resources" />
 			<div style="" class="details">
 				<p>
-					In this section you can access information about Organising a Dojo, becoming a CoderDojo 
-					Champion and registering your Dojo on Zen (our Dojo listing website).
-					You can also access guides and information on recruiting Mentors and Volunteers, finding a 
-					Venue and Dojo Operations such as Belts as well as Advice from CoderDojo Champions and 
-					Guiding Principles and Philosophies.
+					In this section you can find out everything you need to know about organising a CoderDojo in your community. 
 				</p>
 				<p>
-					Here you can also discover all the great ways to connect with the CoderDojo Community, 
-					which now includes 700+ Dojos from 57 countries around the world!
+					Here you will learn about becoming a CoderDojo Champion and registering your Dojo, 
+					finding a venue, finding technical mentors and volunteers, CoderDojo learning 
+					philosophies and practical tips from organisers for running your Dojo! 
 				</p>
 				<p>
-					There are also Sponsored Tools here which contain free or discounted learning tools and 
-					aids available to use at your Dojo.
+					In this section you will also find out about supports available to you and ways to 
+					connect to the community of 700+ Dojos in 57 countries around the world. 
 				</p>
 			</div>
 			<a href="<?php echo $viewHelper["ArticlePath"], "Organising_a_Dojo"; ?>" class=" kata-home-panel kata-home-panel-button organise-button ">
@@ -53,17 +50,18 @@
 				alt="Learning Resources" />
 			<div class="details">
 				<p>
-					Here you will find an Overview of Learning Resources tried, tested and contributed by 
-					members of the global CoderDojo community. These Learning Resources consist of a wide 
-					range of programming languages and technologies to help along the way.
+					Here you will find all sorts of learning resources for helping young people to explore 
+					technology in your Dojo!
 				</p>
 				<p>
-					This sections includes CoderDojo Sushi, resources and guides covering Scratch, HTML, 
-					Python, Ruby, Java, Minecraft and hardware guides for Arduino and Raspberry Pi projects.
+					In this section there are Dojo Sushi concept cards for teaching HTML and CSS, 
+					resources and guides covering Scratch, HTML, Python, Ruby, Java, Minecraft and 
+					hardware guides for Arduino and Raspberry Pi projects and more!
+
 				</p>
 				<p>
-					In this section you can also access foreign language resources. We have content from our 
-					communities​ ​in the Netherlands, Belgium, Italy and Japan!
+					In this section you can also access foreign language resources from our communities​
+					in the Netherlands, Belgium, Italy and Japan!
 				</p>
 			</div>
 			<a href="<?php echo $viewHelper["ArticlePath"], "Overview_of_Learning_Resources"; ?>"
@@ -78,12 +76,16 @@
 				alt="communitysupportmilano" />
 			<div class="details">
 				<p>
-					Here you will find cool tools and games for young people to engage with and learn 
-					programming skills! 
+					This section is for young people to explore and play with coding and technology! 
 				</p>
 				<p>
-					This section has games, projects and online tools that can help you develop your coding 
-					skills and create your own unique projects!
+					This will bring you to the CoderDojo Arcade where you will find lots of great coding games 
+					and tools for young people to engage with and learn programming skills. 
+				</p>
+				<p>
+					Here you will find games, some familiar some new, all focused on helping you learn to 
+					code from Scratch remakes of popular retro games to free tools to help you make your 
+					own awesome games!
 				</p>
 			</div>
 			<a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>" class=" kata-home-panel kata-home-panel-button explore-button ">
