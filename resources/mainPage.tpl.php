@@ -36,7 +36,7 @@
 				</p>
 				<p>
 					In this section you will also find out about supports available to you and ways to 
-					connect to the community of 700+ Dojos in 57 countries around the world. 
+					connect to the CoderDojo community around the world. 
 				</p>
 			</div>
 			<a href="<?php echo $viewHelper["ArticlePath"], "Organising_a_Dojo"; ?>" class=" kata-home-panel kata-home-panel-button organise-button ">
