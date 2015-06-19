@@ -1,7 +1,7 @@
 
 <ul class="nav nav-pills nav-stacked">
-        <li class="main<?php if($viewHelper['ThisPage'] == 'Main_Page'){ ?> active<?php } ?>">
-            <a href="<?php echo $viewHelper["ArticlePath"], "Main_Page"; ?>">Home</a>
+        <li class="main<?php if($viewHelper['ThisPage'] == 'Kata_About'){ ?> active<?php } ?>">
+            <a href="<?php echo $viewHelper["ArticlePath"], "Kata_About"; ?>">About</a>
         </li>
 
         <li id="OrganiserMenuItem" class="organiser-resource dropdown <?php if($viewHelper['ThisPage'] == 'Organising_a_Dojo'){ ?> active<?php } ?>">
