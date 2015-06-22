@@ -3,7 +3,7 @@
    if($viewHelper['ThisPage'] == 'Organising_a_Dojo') {
    		$activeClassName = ' organiser-active';
    }
-   elseif($viewHelper['ThisPage'] == 'Overview_of_Learning_Resources') {
+   elseif($viewHelper['ThisPage'] == 'Learning_Resource') {
    	    $activeClassName = ' learning-active';
    }
    elseif($viewHelper['ThisPage'] == 'The_Arcade') {
