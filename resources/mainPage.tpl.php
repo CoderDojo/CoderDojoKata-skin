@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row dl-menu">
 			<a href="<?php echo $viewHelper["ArticlePath"], "Organising_a_Dojo"; ?>"><span class="col-xs-4 kata-home-panel organise">Organiser Resources</span></a>
-			<a href="<?php echo $viewHelper["ArticlePath"], "Overview_of_Learning_Resources"; ?>"><span class="col-xs-4 kata-home-panel mentors">Learning Resources</span></a>
+			<a href="<?php echo $viewHelper["ArticlePath"], "Learning_Resource"; ?>"><span class="col-xs-4 kata-home-panel mentors">Learning Resources</span></a>
 			<a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>"><span class="col-xs-4 kata-home-panel ninjas" style="">Ninja Zone</span></a>
 		</div>
 	</div>
