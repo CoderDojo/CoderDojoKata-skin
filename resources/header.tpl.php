@@ -3,24 +3,26 @@
 		<div class="col-md-12">
 			<div class="logo kata">
 				<a href="<?php echo $viewHelper["ArticlePath"], "Main_Page"; ?>"><img alt="CoderDojo.org"
-					src="<?php echo $viewHelper["ImagePath"], "logo.png"; ?>" width="48"
-					height="48"> 
+					src="<?php echo $viewHelper["ImagePath"], "logo.png"; ?>" width="70"
+					height="70"> 
 				</a>
 				<a href="<?php echo $viewHelper["ArticlePath"], "Main_Page"; ?>"><span class="kata-logo-text">CoderDojo<br />Kata</span></a>
 			</div>
 			<div class="login kata">
-			<span ><a class="new" href="<?php echo $viewHelper["ArticlePath"], "Become_a_Kata_Editor"; ?>">How to publish contents</a></span> 
-				<?php 
-					$this->html( 'userlangattributes' );
-					$personalTools = $this->getPersonalTools();
-					foreach ( $personalTools as $key => $item ) {
-						echo $this->makeListItem( $key, $item, array("tag" => "span") );
-					}
+				<div class="nav-links">
+					<span><a class="new" href="<?php echo $viewHelper["ArticlePath"], "Become_a_Kata_Editor"; ?>">How to publish contents</a></span> 
+					<?php 
+						$this->html( 'userlangattributes' );
+						$personalTools = $this->getPersonalTools();
+						foreach ( $personalTools as $key => $item ) {
+							echo $this->makeListItem( $key, $item, array("tag" => "span") );
+						}
 
-					$searchTitleObject = SpecialPage::getTitleFor("Search");
-					$searchFormUrl = $searchTitleObject->getLinkURL();
-					parse_str(parse_url($searchFormUrl, PHP_URL_QUERY), $searchFormParams);
-				?>
+						$searchTitleObject = SpecialPage::getTitleFor("Search");
+						$searchFormUrl = $searchTitleObject->getLinkURL();
+						parse_str(parse_url($searchFormUrl, PHP_URL_QUERY), $searchFormParams);
+					?>
+				</div>
 				<form method="get" class="search-form" action="<?=$searchFormUrl ?>">
 					<fieldset>
 						<div class="form-group">
