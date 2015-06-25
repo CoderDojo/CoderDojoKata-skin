@@ -1,49 +1,49 @@
 @mixin kata-custom-buttons() {
-	.kata-button {
-		display:block;
-		padding:10px;
-		margin:15px 15px 15px 0px;
-		text-align:center;
-		color:#fff;
-		&:hover{
-			color:rgba(0, 0, 0, 0.8);
-			text-decoration:none;
-		}
-	}
+    .kata-button {
+        display:block;
+        padding:10px;
+        margin:15px 15px 15px 0px;
+        text-align:center;
+        color:#fff;
+        &:hover{
+            color:rgba(0, 0, 0, 0.8);
+            text-decoration:none;
+        }
+    }
 
-	.kata-grass-color {
-		background-color:#61C93F;
-	}
+    .kata-grass-color {
+        background-color:#61C93F;
+    }
 
-	.kata-sea-color {
-		background-color:#2E7AC7;
-	}
+    .kata-sea-color {
+        background-color:#2E7AC7;
+    }
 
-	.kata-sun-color {
-		background-color:#FBCC33;
-	}
+    .kata-sun-color {
+        background-color:#FBCC33;
+    }
 
-	.kata-fiery-color {
-		background-color:#ED462F;
-	}
+    .kata-fiery-color {
+        background-color:#ED462F;
+    }
 
-	.kata-sky-color {
-		background-color:#2C9CFB;
-	}
+    .kata-sky-color {
+        background-color:#2C9CFB;
+    }
 
-	.kata-button-eighth {
-		width:12.5%;
-	}
+    .kata-button-eighth {
+        width:12.5%;
+    }
 
-	.kata-button-quarter {
-		width:25%;
-	}
+    .kata-button-quarter {
+        width:25%;
+    }
 
-	.kata-button-half {
-		width:50%;
-	}
+    .kata-button-half {
+        width:50%;
+    }
 
-	.kata-button-biggest {
-		width:75%;
-	}
+    .kata-button-biggest {
+        width:75%;
+    }
 }
