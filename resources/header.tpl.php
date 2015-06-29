@@ -9,7 +9,7 @@
 				<a href="<?php echo $viewHelper["ArticlePath"], "Main_Page"; ?>"><span class="kata-logo-text">CoderDojo<br />Kata</span></a>
 			</div>
 			<div class="login kata">
-			<span ><a class="new" href="<?php echo $viewHelper["ArticlePath"], "Become_a_Kata_Editor"; ?>">How to publish contents</a></span> 
+			<span ><a class="new" href="<?php echo $viewHelper["ArticlePath"], "Become_a_Kata_Editor"; ?>">How to Share your Content!</a></span> 
 				<?php 
 					$this->html( 'userlangattributes' );
 					$personalTools = $this->getPersonalTools();
