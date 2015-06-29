@@ -35,6 +35,10 @@
 							}?>
 							<input type="hidden" value="all" name="profile">
 						</div>
+						<div class="cc">
+							<a target="_blank" class="external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="<?php echo $viewHelper["ImagePath"], "cc-by.png"; ?>" width="88" height="31" /></a>
+							<p>Content is available under <a target="_blank" class="external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution</a></p>
+						</div>
 					</fieldset>
 				</form>
 			</div>
