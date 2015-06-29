@@ -171,4 +171,54 @@
 	.ninja-active .toc {
 		border: 2px solid #FBCC33;
 	}
+
+	table.wikitable > * {
+		color:#000;
+		background-color:#fff;
+		>tr {
+			 >th {
+				border:2px solid #000;
+				padding:0.5%;
+			}
+			>td {
+				border:2px solid #000;
+				padding:0.8%;
+			}
+		}
+	}
+	table.wikitable.kata-grass > * {
+		>tr {
+			>th {
+				background-color:#61C93F;
+			}
+		}
+	}
+	table.wikitable.kata-sea > * {
+		>tr {
+			>th {
+				background-color:#2E7AC7;
+			}
+		}
+	}
+	table.wikitable.kata-sun > * {
+		>tr {
+			>th {
+				background-color:#FBCC33;
+			}
+		}
+	}
+	table.wikitable.kata-sky > * {
+		>tr {
+			>th {
+				background-color:#2C9CFB;
+			}
+		}
+	}
+	table.wikitable.kata-fiery > * {
+		>tr {
+			>th {
+				background-color:#ED462F;
+			}
+		}
+	}
 }
