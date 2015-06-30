@@ -1,12 +1,13 @@
 <?php
    $activeClassName = '';
-   if($viewHelper['ThisPage'] == 'Organising_a_Dojo') {
+
+   if(in_array($viewHelper['ThisPage'], $viewHelper['PageSections']['organiser'])) {
    		$activeClassName = ' organiser-active';
    }
-   elseif($viewHelper['ThisPage'] == 'Learning_Resource') {
+   elseif(in_array($viewHelper['ThisPage'], $viewHelper['PageSections']['learning'])) {
    	    $activeClassName = ' learning-active';
    }
-   elseif($viewHelper['ThisPage'] == 'The_Arcade') {
+   elseif(in_array($viewHelper['ThisPage'], $viewHelper['PageSections']['ninja'])) {
         $activeClassName = ' ninja-active';
    }
 ?>

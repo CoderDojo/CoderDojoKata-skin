@@ -12,8 +12,8 @@
             <a href="<?php echo $viewHelper["ArticlePath"], "Learning_Resource"; ?>">Learning Resources</span></a>
         </li>
 		
-        <li id="NinjaMenuItem" class="ninja-resource dropdown<?php if($viewHelper['ThisPage'] == 'The_Arcade'){ ?> active<?php } ?>">
-            <a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>">Ninja Zone</a>
+        <li id="NinjaMenuItem" class="ninja-resource dropdown<?php if($viewHelper['ThisPage'] == 'Ninja_Zone'){ ?> active<?php } ?>">
+            <a href="<?php echo $viewHelper["ArticlePath"], "Ninja_Zone"; ?>">Ninja Zone</a>
         </li>
         <?php
         if(array_key_exists('AdminLoggedIn', $viewHelper))

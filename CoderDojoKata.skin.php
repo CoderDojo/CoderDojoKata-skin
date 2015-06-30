@@ -323,6 +323,30 @@ class CoderDojoKataTemplate extends BaseTemplate
 				break;
 		}
 		
+		$pageSections = array(
+			'ninja' => array(
+				'Arcade'
+				, 'Ninja_Zone'
+				, 'Dojogame'
+				, 'CoderDojoGirls'
+			)
+			, 'organiser' => array(
+				'Champion'
+				, 'Organising_a_Dojo'
+				, 'Mentors_and_Volunteers'
+				, 'Background_Checking'
+			)
+			, 'learning' => array(
+				'Learning_Resource'
+				, 'Overview_of_Learning_Resources'
+				, 'KataItalia'
+				, 'KataJapan'
+				, 'KataDutch'
+				, 'KataEspañol'
+				, 'KataFrench'
+			)
+		);
+
 		$viewHelper = array(
 				"ThisPage" => $this->data["thispage"],
 				"SiteName" => $this->data["sitename"],
@@ -333,7 +357,8 @@ class CoderDojoKataTemplate extends BaseTemplate
 				"SkinTemplate" => $skinTemplate,
 				"CssClasses" => trim($cssClasses),
 				"ImagePath" => "{$this->data["stylepath"]}/{$this->data["skinname"]}/images/",
-				"ResourcePath" => "{$this->data["stylepath"]}/{$this->data["skinname"]}/resources/"
+				"ResourcePath" => "{$this->data["stylepath"]}/{$this->data["skinname"]}/resources/",
+				"PageSections" => $pageSections
 		);
 		
 		$loggedInUserGroups = $this->getSkin()->getUser()->getEffectiveGroups();
