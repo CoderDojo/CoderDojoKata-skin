@@ -20,7 +20,7 @@ class SkinCoderDojoKata extends SkinTemplate
 	var $stylename = 'CoderDojoKata';
 	var $template = 'CoderDojoKataTemplate';
 	var $useHeadElement = true;
- 
+
 	/**
 	 * Add JavaScript via ResourceLoader
 	 *
@@ -31,18 +31,18 @@ class SkinCoderDojoKata extends SkinTemplate
 		$out->addHeadItem('viewport', '<meta name="viewport" content="width=320">' );
 		$out->addModules( array( 'skins.coderdojokata' ) );
 	}
- 
+
 	/**
 	 * Add CSS via ResourceLoader
 	 *
 	 * @param $out OutputPage
 	 */
-	function setupSkinUserCss( OutputPage $out ) 
+	function setupSkinUserCss( OutputPage $out )
 	{
 		parent::setupSkinUserCss( $out );
 		$out->addModuleStyles( 'skins.coderdojokata' );
 	}
-	
+
 }
 
 
@@ -63,6 +63,8 @@ class CoderDojoKataTemplate extends BaseTemplate
 	 * @param array $elements
 	 */
 	protected function renderNavigation( $elements ) {
+		unset($this->data['namespace_urls']['talk']);
+
 		// If only one element was given, wrap it in an array, allowing more
 		// flexible arguments
 		if ( !is_array( $elements ) ) {
@@ -73,6 +75,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 		}
 		// Render elements
 		?><ul class="nav navbar-nav navbar-right" role="tablist"><?php
+
 		foreach ( $elements as $name => $element ) {
 			switch ( $element ) {
 				case 'NAMESPACES':
@@ -254,7 +257,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 		}
 		?></ul><?php
 	}
-	
+
 	/**
 	 * View Helper pattern for simplifying access to:
 	 * -  ThisPage > Current page id
@@ -272,57 +275,57 @@ class CoderDojoKataTemplate extends BaseTemplate
 		$categories = $context->getOutput()->getCategories();
 		$namespace = !empty($context->getTitle()->skinNamespace) ? $context->getTitle()->skinNamespace : $context->getTitle()->getNamespace();
 		$namespaceName = $GLOBALS["wgExtraNamespaces"][$namespace];
-		
+
 		$skinTemplate = "content";
 		$cssClasses = " " . strtolower(strtr($namespaceName, "_", "-"));
-		
-		
+
+
 		// Check the namespace to load the right template
 		switch (true)
 		{
 			case ($namespace == NS_SPECIAL):
 				break;
-				
+
 			case ($namespace == NS_MAIN):
-				
+
 				$skinTemplate = "content";
 				$cssClasses = " main" . $cssClasses;
 				$kataSection = "";
-				
+
 				if ($context->getTitle()->getDBkey() == "Main_Page")
 				{
 					$skinTemplate = "mainPage";
 				}
 				break;
-				
+
 			case (($namespace >= NS_ORGANISER_RESOURCE) && ($namespace <= NS_ORGANISER_RESOURCE + 99)):
-				
+
 				$skinTemplate = "content";
 				$cssClasses = " organiser-resource" . $cssClasses;
 				$kataSection = "Organiser Resources > ";
 				break;
-				
+
 			case (($namespace >= NS_TECHNICAL_RESOURCE) && ($namespace <= NS_TECHNICAL_RESOURCE + 99)):
-				
+
 				$skinTemplate = "content";
 				$cssClasses = " technical-resource" . $cssClasses;
 				$kataSection = "Technical Resources > ";
 				break;
-				
+
 			case (($namespace >= NS_NINJA_RESOURCE) && ($namespace <= NS_NINJA_RESOURCE + 99)):
-				
+
 				$skinTemplate = "content";
 				$cssClasses = " ninja-resource" . $cssClasses;
 				$kataSection = "Ninja Resources > ";
 				break;
-				
+
 			case ($namespace == NS_TEMPLATE):
 				break;
-				
+
 			case ($namespace == NS_CATEGORY):
 				break;
 		}
-		
+
 		$pageSections = array(
 			'ninja' => array(
 				'Arcade'
@@ -360,7 +363,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 				"ResourcePath" => "{$this->data["stylepath"]}/{$this->data["skinname"]}/resources/",
 				"PageSections" => $pageSections
 		);
-		
+
 		$loggedInUserGroups = $this->getSkin()->getUser()->getEffectiveGroups();
 		if(in_array('sysop', $loggedInUserGroups))
 		{
@@ -368,9 +371,9 @@ class CoderDojoKataTemplate extends BaseTemplate
 		}
 
 		return $viewHelper;
-		
+
 	}
-	
+
 	protected function setupNavigation() {
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
@@ -431,18 +434,18 @@ class CoderDojoKataTemplate extends BaseTemplate
 	/**
 	 * Outputs the entire contents of the page
 	 */
-	public function execute() 
+	public function execute()
 	{
 		$this->setupNavigation();
 		$context = RequestContext::getMain();
 		if ($context->canUseWikiPage()) {
 			$wikiPage = $context->getWikiPage();
 		}
-		
+
 		$viewHelper = $this->getViewHelper();
-	
+
 		$this->html( 'headelement' );
-		
+
 ?>
 <!-- put everything inside <body></body> (body tags excuded) -->
 
@@ -480,7 +483,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 
 			<!-- CONTAINER::MAINCONTAINER -->
 			<div id="MainContainer" class="row <?php echo $viewHelper['CssClasses']; ?>">
-	   
+
 <?php include "resources/{$viewHelper['SkinTemplate']}.tpl.php";?>
 
 			</div>
@@ -492,7 +495,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 
 	<!-- CONTAINER::FOOTER -->
 	<div id="FooterContainer" class="row">
-	
+
 <?php include "resources/footer.tpl.php";?>
 
 	</div>

@@ -113,6 +113,10 @@
 			}
 		}
 	}
+	#PageContainer #toc ul {
+			display:none;
+	}
+
 	#footer .logo img {
 		height:41px;
 	}
@@ -151,9 +155,6 @@
 		display:none;
 	}
 
-	.toctoggle {
-		display:none;
-	}
 	.toc {
 		border:2px solid #2E7AC7;
 		padding:0px 10px 22px 20px;
