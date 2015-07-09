@@ -14,7 +14,6 @@
 
 <script type="text/javascript">
   $(document).ready(function() {
-      console.log('toggling');
       $('#togglelink').trigger('click');
   });
 </script>
