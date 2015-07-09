@@ -7,15 +7,15 @@
  * @author CoderDojo Foundation
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
- 
+
 if ( !defined( 'MEDIAWIKI' ) )
 {
    die( 'This is an extension to the MediaWiki package and cannot be run standalone.' );
 }
- 
+
 $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
-	'name' => 'CoderDojo Kata', 
+	'name' => 'CoderDojo Kata',
 	'namemsg' => 'skinname-coderdojokata',
 	'version' => '1.0',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:CoderDojoKata',
@@ -25,7 +25,7 @@ $wgExtensionCredits['skin'][] = array(
 );
 
 $wgValidSkinNames['coderdojokata'] = 'CoderDojoKata';
- 
+
 $wgAutoloadClasses['SkinCoderDojoKata'] = __DIR__ . '/CoderDojoKata.skin.php';
 $wgMessagesDirs['CoderDojoKata'] = __DIR__ . '/i18n';
 

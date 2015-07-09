@@ -12,9 +12,15 @@
    }
 ?>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+      console.log('toggling');
+      $('#togglelink').trigger('click');
+  });
+</script>
 <div id="CommandBar" class="navbar navbar-default<?php echo $activeClassName; ?>" role="navigation">
 	<div class="container-fluid">
-		<?php 
+		<?php
 			$navElements = array('NAMESPACES');
 			$requestedPageTitle = RequestContext::getMain()->getRequest()->getValues();
 			$requestedPageTitle = $requestedPageTitle['title'];
@@ -37,7 +43,7 @@
 					<li><a href="#">Move</a></li>
 					<li><a href="#">Protect</a></li>
 					<li><a href="#">Watch</a></li>
-				</ul> 
+				</ul>
 			</li>
 		</ul>
 		*/?>

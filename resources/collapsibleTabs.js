@@ -1,6 +1,7 @@
 /**
  * Collapsible tabs jQuery Plugin
  */
+
 ( function ( $ ) {
 	var rtl = $( 'html' ).attr( 'dir' ) === 'rtl';
 	$.fn.collapsibleTabs = function ( options ) {
