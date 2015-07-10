@@ -11,11 +11,7 @@
         $activeClassName = ' ninja-active';
    }
 ?>
-<style>
-/*#PageContainer #toc ul {
-    display:none;
-}*/
-</style>
+
 <script type="text/javascript">
   $(document).ready(function() {
     $('.external').click(function(){
