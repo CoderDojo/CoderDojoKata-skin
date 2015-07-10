@@ -6,10 +6,15 @@
         text-align:center;
         color:#fff;
         font-size:20px;
+        border:2px solid #000;
         &:hover{
             color:rgba(0, 0, 0, 0.8);
             text-decoration:none;
         }
+    }
+
+    .button-right {
+        float:right;
     }
 
     .kata-grass-color {
