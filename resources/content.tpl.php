@@ -11,10 +11,21 @@
         $activeClassName = ' ninja-active';
    }
 ?>
-
+<style>
+/*#PageContainer #toc ul {
+    display:none;
+}*/
+</style>
 <script type="text/javascript">
   $(document).ready(function() {
-      $('#togglelink').trigger('click');
+    $('.external').click(function(){
+
+      var url = $(this).attr('href');
+      if(url.indexOf("kata.coderdojo.com") >= 0)
+      {
+         $(this).removeAttr('target');
+      }
+    });
   });
 </script>
 <div id="CommandBar" class="navbar navbar-default<?php echo $activeClassName; ?>" role="navigation">
