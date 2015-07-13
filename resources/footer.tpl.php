@@ -55,15 +55,11 @@
 			</div>
 			<div class="col-sm-4">
 				<dl>
-					<dt>General Enquiries:</dt>
-					<dd>
-						<a href="mailto:info@coderdojo.com">info@coderdojo.com</a>
-					</dd>
-					<dt>Partner Enquiries:</dt>
-					<dd>
-						<a href="mailto:partner@coderdojo.com">partner@coderdojo.com</a>
-					</dd>
+					<a class="btn btn-primary contact-button" href="https://coderdojo.com/contact/">Contact Us</a>
 				</dl>
+				<p>
+					Supported by the CoderDojo Foundation, CHY 20812. For more information about the CoderDojo Foundation, <a title="More information about the CoderDojo Foundation" href="https://coderdojo.com/about/coderdojo-foundation">click here</a>.
+				</p>
 				<span class="visit">Visit <a href="http://www.coderdojo.com">CoderDojo.com</a></span>
 			</div>
 		</div>
