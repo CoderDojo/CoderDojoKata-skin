@@ -27,16 +27,16 @@
 				alt="Organiser Resources" />
 			<div style="" class="details">
 				<p>
-					In this section you can find out everything you need to know about organising a CoderDojo in your community. 
+					In this section you can find out everything you need to know about organising a CoderDojo in your community.
 				</p>
 				<p>
-					Here you will learn about becoming a CoderDojo Champion and registering your Dojo, 
-					finding a venue, finding technical mentors and volunteers, CoderDojo learning 
-					philosophies and practical tips from organisers for running your Dojo! 
+					Here you will learn about becoming a CoderDojo Champion and registering your Dojo,
+					finding a venue, finding technical mentors and volunteers, CoderDojo learning
+					philosophies and practical tips from organisers for running your Dojo!
 				</p>
 				<p>
-					In this section you will also find out about supports available to you and ways to 
-					connect to the CoderDojo community around the world. 
+					In this section you will also find out about supports available to you and ways to
+					connect to the CoderDojo community around the world.
 				</p>
 			</div>
 			<a href="<?php echo $viewHelper["ArticlePath"], "Organising_a_Dojo"; ?>" class=" kata-home-panel kata-home-panel-button organise-button ">
@@ -50,12 +50,12 @@
 				alt="Learning Resources" />
 			<div class="details">
 				<p>
-					Here you will find all sorts of learning resources for helping young people to explore 
+					Here you will find all sorts of learning resources for helping young people to explore
 					technology in your Dojo!
 				</p>
 				<p>
-					In this section there are Dojo Sushi concept cards for teaching HTML and CSS, 
-					resources and guides covering Scratch, HTML, Python, Ruby, Java, Minecraft and 
+					In this section there are Dojo Sushi concept cards for teaching HTML and CSS,
+					resources and guides covering Scratch, HTML, Python, Ruby, Java, Minecraft and
 					hardware guides for Arduino and Raspberry Pi projects and more!
 
 				</p>
@@ -64,7 +64,7 @@
 					in the Netherlands, Belgium, Italy and Japan!
 				</p>
 			</div>
-			<a href="<?php echo $viewHelper["ArticlePath"], "Overview_of_Learning_Resources"; ?>"
+			<a href="<?php echo $viewHelper["ArticlePath"], "Learning_Resource"; ?>"
 				class=" kata-home-panel kata-home-panel-button view-tutorials-button">
 				View Resources
 			</a>
@@ -76,19 +76,19 @@
 				alt="communitysupportmilano" />
 			<div class="details">
 				<p>
-					This section is for young people to explore and play with coding and technology! 
+					This section is for young people to explore and play with coding and technology!
 				</p>
 				<p>
-					This will bring you to the CoderDojo Arcade where you will find lots of great coding games 
-					and tools for young people to engage with and learn programming skills. 
+					This will bring you to the CoderDojo Arcade where you will find lots of great coding games
+					and tools for young people to engage with and learn programming skills.
 				</p>
 				<p>
-					Here you will find games, some familiar some new, all focused on helping you learn to 
-					code from Scratch remakes of popular retro games to free tools to help you make your 
+					Here you will find games, some familiar some new, all focused on helping you learn to
+					code from Scratch remakes of popular retro games to free tools to help you make your
 					own awesome games!
 				</p>
 			</div>
-			<a href="<?php echo $viewHelper["ArticlePath"], "The_Arcade"; ?>" class=" kata-home-panel kata-home-panel-button explore-button ">
+			<a href="<?php echo $viewHelper["ArticlePath"], "Ninja_Zone"; ?>" class=" kata-home-panel kata-home-panel-button explore-button ">
 				Explore
 			</a>
 		</div>
@@ -96,4 +96,3 @@
 		<div class="row same-height"><?php $this->html( 'bodycontent' ) ?></div>
 	</div>
 </div>
-
