@@ -338,6 +338,7 @@ class CoderDojoKataTemplate extends BaseTemplate
 				, 'Organising_a_Dojo'
 				, 'Mentors_and_Volunteers'
 				, 'Background_Checking'
+				, 'Zen'
 			)
 			, 'learning' => array(
 				'Learning_Resource'
